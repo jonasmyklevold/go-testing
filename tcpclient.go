@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	strEcho := "JONAS MYKLEVOLD"
-	servAddr := "localhost:8801"
+	strEcho := "JONAS"
+	servAddr := "localhost:5000"
 	tcpAddr, err := net.ResolveTCPAddr("tcp", servAddr)
 	if err != nil {
 		println("ResolveTCPAddr failed:", err.Error())
